@@ -82,14 +82,14 @@ button:first-child {
   background: hsl(171, 66%, 44%);
   border-bottom-color: hsl(171, 46%, 40%);
   box-shadow: 0 6px 16px -2px hsl(171, 66%, 44%, 0.5);
-  margin-right: calc(10.5em / 18);
+  margin-bottom: calc(10.5em / 18);
 }
 
 button:last-child {
   background: hsl(233, 100%, 69%);
   border-bottom-color: hsl(233, 80%, 59%);
   box-shadow: 0 6px 16px -2px hsl(233, 100%, 69%, 0.5);
-  margin-left: calc(10.5em / 18);
+  margin-top: calc(10.5em / 18);
 }
 
 button {
@@ -116,6 +116,16 @@ button:hover {
 
   h2 {
     font-size: calc(31.5em / 18);
+  }
+
+  button:first-child {
+    margin-right: calc(10.5em / 18);
+    margin-bottom: 0;
+  }
+
+  button:last-child {
+    margin-left: calc(10.5em / 18);
+    margin-top: 0;
   }
 
   .buttons-1,
